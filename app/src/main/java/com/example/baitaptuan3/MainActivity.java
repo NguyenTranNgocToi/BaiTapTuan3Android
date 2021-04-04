@@ -12,8 +12,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         Button btnChonMau;
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.scr1);
-        
+        setContentView(R.layout.scr3);
     }
 
 

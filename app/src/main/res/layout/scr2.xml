@@ -36,12 +36,11 @@
 
     <View
         android:id="@+id/view2"
-        android:layout_width="447dp"
-        android:layout_height="534dp"
+        android:layout_width="411dp"
+        android:layout_height="536dp"
         android:background="#C4C4C4"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent" />
 
     <TextView
@@ -104,16 +103,21 @@
 
     <Button
         android:id="@+id/button7"
-        android:layout_width="370dp"
-        android:layout_height="72dp"
-        android:layout_marginTop="40dp"
+        android:layout_width="358dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="28dp"
+        android:backgroundTint="#1952E2"
         android:text="@string/xong"
         android:textColor="#F9F2F2"
-        app:backgroundTint="#581952E2 "
+        android:textSize="20dp"
+        android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="@+id/button6"
-        app:layout_constraintHorizontal_bias="0.501"
+        app:layout_constraintHorizontal_bias="0.473"
         app:layout_constraintStart_toStartOf="@+id/button6"
         app:layout_constraintTop_toBottomOf="@+id/button6"
-        android:textSize="20dp"
-        android:textStyle="bold"/>
+        app:strokeColor="#CA1536"
+        app:strokeWidth ="2dp"
+        app:cornerRadius ="10dp"/>
+
+
 </androidx.constraintlayout.widget.ConstraintLayout>

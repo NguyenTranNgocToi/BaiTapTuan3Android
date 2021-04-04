@@ -117,35 +117,37 @@
         app:srcCompat="@drawable/group1" />
 
     <Button
-        android:id="@+id/buttonChonMua"
-
+        android:id="@+id/btnChonMuaScr1"
         android:layout_width="354dp"
         android:layout_height="53dp"
-        android:layout_marginTop="8dp"
+        android:layout_marginTop="88dp"
         android:backgroundTint="#EE0A0A"
         android:text="CHỌN MUA"
         android:textColor="#FFFFFF"
         android:textStyle="bold"
-        app:layout_constraintEnd_toEndOf="@+id/buttonChonMau"
+        app:layout_constraintEnd_toEndOf="@+id/btnChonMauScr1"
         app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="@+id/buttonChonMau"
-        app:layout_constraintTop_toBottomOf="@+id/buttonChonMau" />
+        app:layout_constraintStart_toStartOf="@+id/btnChonMauScr1"
+        app:layout_constraintTop_toBottomOf="@+id/btnChonMauScr1" />
 
     <Button
-        android:id="@+id/buttonChonMau"
+        android:id="@+id/btnChonMauScr1"
         android:layout_width="354dp"
         android:layout_height="53dp"
         android:layout_marginTop="28dp"
-        android:background="@drawable/buton"
-        android:drawableRight="@drawable/icon"
         android:paddingLeft="25dp"
         android:paddingRight="15dp"
         android:text="4 MÀU-CHỌN MÀU"
         android:textStyle="bold"
-        app:backgroundTint="@drawable/buton"
         app:layout_constraintEnd_toEndOf="@+id/textView6"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="@+id/textView6"
-        app:layout_constraintTop_toBottomOf="@+id/textView6" />
+        app:layout_constraintTop_toBottomOf="@+id/textView6"
+        android:drawableRight="@drawable/icon"
+        style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+        app:backgroundTint="#ffffff"
+        app:strokeColor="#C4C4C4"
+
+       />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
