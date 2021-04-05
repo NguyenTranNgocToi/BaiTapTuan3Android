@@ -120,7 +120,7 @@
         android:id="@+id/btnChonMuaScr1"
         android:layout_width="354dp"
         android:layout_height="53dp"
-        android:layout_marginTop="88dp"
+        android:layout_marginTop="28dp"
         android:backgroundTint="#EE0A0A"
         android:text="CHỌN MUA"
         android:textColor="#FFFFFF"

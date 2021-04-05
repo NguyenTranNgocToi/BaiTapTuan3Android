@@ -7,28 +7,24 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-public class MainActivity extends AppCompatActivity {
-    private  Button btnChonMauScr1;
+public class MainActivity2 extends AppCompatActivity {
+    private Button btnXongScr2;
     @Override
-
     protected void onCreate(Bundle savedInstanceState) {
 
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.scr1);
-        btnChonMauScr1 =findViewById(R.id.btnChonMauScr1);
-        btnChonMauScr1.setOnClickListener(new View.OnClickListener() {
+        setContentView(R.layout.scr2);
+        btnXongScr2 = findViewById(R.id.button7);
+        btnXongScr2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                openActivity2();
+                openMain1();
             }
         });
-
     }
 
-    private void openActivity2() {
-        Intent intent = new Intent(this,MainActivity2.class);
+    private void openMain1() {
+        Intent intent = new Intent(this,MainActivity.class);
         startActivity(intent);
     }
-
-
 }
